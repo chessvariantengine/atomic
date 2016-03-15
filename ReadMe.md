@@ -4,7 +4,7 @@ venat - Atomic chess variant engine
 #### modification of the CCRL listed bitboard engine Zurichess by Alexandru Mosoi:  
 https://bitbucket.org/zurichess/zurichess
 
-Currently the UCI protocol is supported ( venatuci ).
+Availabe both as UCI ( venatuci ) and XBOARD ( venatxboard ).
 
 There are precompiled versions for all major platforms.
 
@@ -16,7 +16,7 @@ There are precompiled versions for all major platforms.
 
   * In the unzipped directory go to the Atomic directory
 
-  * Open the uci directory
+  * Depending on the protocol you need open the uci or the xboard directory
 
   * Open the directory belonging to your platform ( windows / linux / darwin )
 
