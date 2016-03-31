@@ -1,3 +1,5 @@
+..\..\..\..\bin\venatuci.exe -exec lb ssb osexit
+
 copy ..\..\..\..\bin\simplebook.txt data
 go-bindata -pkg bindata data/
 move bindata.go bindata
